@@ -30,3 +30,11 @@ Visual studio code
 Github Desktop
 
 Consulta realizada en [(https://www.w3schools.com)] para el desarrollo de algunas plantillas
+
+### Vistas de primera version 
+Vista Movies
+![image](https://github.com/iancicarelli/iancicarelli.github.io/blob/main/Movies.png)
+Vista Home
+![image](https://github.com/iancicarelli/iancicarelli.github.io/blob/main/home.png)
+Vista Sign in 
+![image](https://github.com/iancicarelli/iancicarelli.github.io/blob/main/SignIn.png)
