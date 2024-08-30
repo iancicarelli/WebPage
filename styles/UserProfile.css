@@ -1,0 +1,74 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzq72AOQLoXayvaw5pH3KjXQ0uuf07dwxPVA&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   margin-top: 20px;
+}
+
+.profile-name {
+    margin: 0;
+    font-size: 2em;
+}
+
+.profile-picture {
+    width: 80px;
+    height: 80px;
+    background-color: #555;
+    border-radius: 50%;
+    background-image: url('https://i.blogs.es/afd5e9/inux2/1366_2000.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.profile-content {
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.profile-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.profile-section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.profile-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-section ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-section ul li:last-child {
+    border-bottom: none;
+}

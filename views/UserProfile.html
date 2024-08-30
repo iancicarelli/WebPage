@@ -4,11 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/Style.css">
+    <link rel="stylesheet" href="../styles/UserProfile.css">
     <title>UserProfile</title>
 </head>
 <body>
     <div id="navbar-placeholder"></div>
+    <div class="profile-header">
+        <h1 class="profile-name">linux user</h1>
+        <div class="profile-picture"></div>
+    </div>
 
+    <div class="profile-content">
+        <div class="profile-section rating">
+            <h2>Your Rating</h2>
+            <p>Movies Rated: 50</p>
+        </div>
+
+        <div class="profile-section list">
+            <h2>Your List</h2>
+            <ul>
+                <li>The Shawshank Redemption</li>
+                <li>The Godfather</li>
+                <li>The Dark Knight</li>
+                <li>Pulp Fiction</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
 <script>
@@ -16,3 +37,6 @@
             .then(response => response.text())
             .then(data => document.getElementById('navbar-placeholder').innerHTML = data);
 </script>
+<style>
+   
+</style>
