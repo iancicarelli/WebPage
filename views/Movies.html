@@ -4,10 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/Style.css">
+    <link rel="stylesheet" href="../styles/Movies.css">
     <title>Movies</title>
 </head>
 <body>
     <div id="navbar-placeholder"></div>
+    
+    <h1 class="title">Top 10 Movies</h1>
+    <div class="card">
+        <img src="../assets/Images/shawshank.jpg" alt="Avatar" style="width:300px" >
+        <div class="container">
+          <h4><b>The Shawshank Redemption</b></h4>
+          <p>1994 2h22m 9.3</p>
+        </div>
+      </div> 
+
+      <div class="card">
+        <img src="../assets/Images/goodfather.jpg" alt="Avatar" style="width:300px" >
+        <div class="container">
+          <h4><b>The Godfather</b></h4>
+          <p>1972 2h55m 9.2</p>
+        </div>
+      </div> 
+
+      <div class="card">
+        <img src="../assets/Images/batman.jpg" alt="Avatar" style="width:280px" >
+        <div class="container">
+          <h4><b>The Dark Knight</b></h4>
+          <p>2008 2h32m 9.0</p>
+        </div>
+      </div> 
+
+      <div class="card">
+        <img src="../assets/Images/bladerunner.jpg" alt="Avatar" style="width:300px" >
+        <div class="container">
+          <h4><b>Blade Runner</b></h4>
+          <p>1982 1h57m 8.1</p>
+        </div>
+      </div> 
+
+      <div class="card">
+        <img src="../assets/Images/goodfather2.jpg" alt="Avatar" style="width:300px" >
+        <div class="container">
+          <h4><b>The Godfather Part II</b></h4>
+          <p>1974 3h22m 9.0</p>
+        </div>
+      </div> 
 
 </body>
 </html>
@@ -16,3 +58,7 @@
             .then(response => response.text())
             .then(data => document.getElementById('navbar-placeholder').innerHTML = data);
 </script>
+
+<style>
+ 
+</style>
