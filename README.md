@@ -1,7 +1,7 @@
 # WebPage
 Proyecto a realizar sobre una Pagina web con tecnologias HTML - CSS 
 
-###Integrantes
+### Integrantes
 Ian Cicarelli
 
 ### Descripcion del problema 
@@ -20,3 +20,13 @@ Como parte del desafío, se ha desarrollado un proyecto utilizando tecnologías 
 
   #### Inicio de Sesión:
   Se implementa una funcionalidad de inicio de sesión para que los usuarios puedan acceder a sus perfiles personalizados y gestionar sus listas y calificaciones de manera segura.
+### Navegación  
+Se Muestra un esquema de la navegación entre paginas
+![image](https://github.com/iancicarelli/iancicarelli.github.io/blob/main/Navegacion.png)
+
+### Herramientas Utilizadas
+Visual studio code
+
+Github Desktop
+
+Consulta realizada en [(https://www.w3schools.com)] para el desarrollo de algunas plantillas
